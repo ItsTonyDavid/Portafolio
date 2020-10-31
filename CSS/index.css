@@ -1,0 +1,38 @@
+/* FONTS */
+.is-main-title{
+  font-size: 50px;
+}
+
+.is-main-title-name{
+  font-size: 100px;
+  line-height: 100px;
+}
+
+.is-main-subtitle-name{
+  font-size: 25px;
+}
+
+.is-main-subtitle{
+  font-size: 30px;
+}
+
+.is-menu-title{
+  font-size: 15px;
+
+}
+
+/* DIVS */
+
+.is-right-side{
+  text-align: right;
+}
+
+.is-menu-div{
+  display: flex;
+  flex-direction: column;
+  height: 100%
+}
+
+.is-menu-div div{
+  flex: 1;
+}
