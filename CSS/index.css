@@ -64,6 +64,10 @@
 
 /* DIVS */
 
+.is-cover-pic{
+  background-image: url("../IMG/tony_wallpaper.jpg")
+}
+
 /*
 .is-divided-div{
   display: flex;
