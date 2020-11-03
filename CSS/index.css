@@ -1,27 +1,65 @@
 /* FONTS */
-.is-main-title{
-  font-size: 45px;
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 500px) {
+  .is-main-title{
+    font-size: 45px;
+  }
+
+  .is-main-title-name{
+    font-size: 100px;
+    line-height: 100px;
+  }
+
+  .is-main-subtitle-name{
+    font-size: 25px;
+  }
+
+  .is-main-subtitle{
+    font-size: 30px;
+  }
+
+  .is-menu-title{
+    font-size: 18px;
+  }
+
+  .is-menu-title:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-decoration-color: white;
+  }
+
+  .section-header{
+    font-size: 50px;
+  }
 }
 
-.is-main-title-name{
-  font-size: 100px;
-  line-height: 100px;
-}
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 499px) {
+  .is-main-title{
+    font-size: 30px;
+  }
 
-.is-main-subtitle-name{
-  font-size: 25px;
-}
+  .is-main-title-name{
+    font-size: 80px;
+    line-height: 80px;
+  }
 
-.is-main-subtitle{
-  font-size: 30px;
-}
+  .is-main-subtitle-name{
+    font-size: 25px;
+  }
 
-.is-menu-title{
-  font-size: 18px;
-}
+  .is-main-subtitle{
+    font-size: 20px;
+  }
 
-.section-header{
-  font-size: 50px;
+  .is-menu-title{
+    font-size: 13px;
+    line-height: 28px;
+  }
+
+  .section-header{
+    font-size: 30px;
+  }
 }
 
 /* DIVS */
@@ -126,5 +164,30 @@
 }
 
 .is-project-body{
-font-size: 20px;
+  font-size: 20px;
+}
+
+.is-education-title{
+  /* border-bottom: 3px solid white; */
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.is-education-body{
+  font-size: 20px;
+}
+
+.is-certify-title{
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.is-certified-by{
+  text-decoration: underline;
+  text-decoration-thickness: 0.5px;
+  text-decoration-color: white;
+}
+
+.is-certified-by a{
+  color: white;
 }
