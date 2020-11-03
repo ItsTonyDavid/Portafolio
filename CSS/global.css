@@ -9,3 +9,11 @@
 .is-montserrat{
   font-family: 'Montserrat';
 }
+
+.is-very-dark{
+  background-color: black;
+}
+
+h1, h2{
+  color: white;
+}

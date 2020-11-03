@@ -1,6 +1,6 @@
 /* FONTS */
 .is-main-title{
-  font-size: 50px;
+  font-size: 45px;
 }
 
 .is-main-title-name{
@@ -17,22 +17,114 @@
 }
 
 .is-menu-title{
-  font-size: 15px;
+  font-size: 18px;
+}
 
+.section-header{
+  font-size: 50px;
 }
 
 /* DIVS */
 
-.is-right-side{
-  text-align: right;
-}
-
-.is-menu-div{
+/*
+.is-divided-div{
   display: flex;
   flex-direction: column;
   height: 100%
 }
 
-.is-menu-div div{
+.is-divided-div div{
   flex: 1;
+}
+
+.is-card-left{
+  align-items: center;
+  float: right;
+  transform-origin center center 0px;
+  transition: transform .2s; /* Animation *
+  transform: perspective(1000px)
+}
+
+.is-card-left:hover{
+  transform: perspective(1000px) rotateY(10deg);
+}
+
+.is-card-right{
+  align-items: center;
+  float: left;
+  transform-origin center center 0px;
+  transition: transform .2s; /* Animation *
+  transform: perspective(1000px)
+}
+
+.is-card-right:hover{
+  transform: perspective(1000px) rotateY(-10deg);
+}
+
+.is-card{
+  border-radius: 2px;
+  background-color: hsl(0, 0%, 14%);
+  height: auto;
+}
+
+.is-picture{
+  display:block;
+  margin:auto;
+}
+
+.card-info{
+  border-left: 2px solid white;
+  color: white;
+  margin: 20px 5px 20px 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.card-title{
+  font-weight: bold;
+}
+
+#minirewards{
+  background-color: #5F0708;
+}
+
+#cemex{
+  background: #1B3F4B;
+}
+*/
+
+.is-right-side{
+  text-align: right;
+}
+
+.is-column-left{
+  text-align: left;
+  transform-origin center center 0px;
+  transition: transform .2s; /* Animation */
+  transform: perspective(1000px)
+}
+
+.is-column-left:hover{
+  transform: scale(1.04);
+}
+
+.is-column-right{
+  text-align: right;
+  transform-origin center center 0px;
+  transition: transform .2s; /* Animation */
+  transform: perspective(1000px)
+}
+
+.is-column-right:hover{
+  transform: scale(1.04);
+}
+
+.is-project-title{
+  border-bottom: 3px solid white;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.is-project-body{
+font-size: 20px;
 }
