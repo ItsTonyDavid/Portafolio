@@ -3,9 +3,25 @@ var imagesDict={
 					'IMG/fablat1.jpg',
 					'IMG/fablat2.jpg'
 				],
-	cemexventures:[],
-	minirewards: ['IMG/minirewardslogo.jpeg'],
-	trackr: []
+	cemexventures:[
+					'./IMG/cemexventures1.png',
+					'./IMG/cemexventures2.png',
+					'./IMG/cemexventures3.png',
+					'./IMG/cemexventures4.png',
+					'./IMG/cemexventures5.png'
+	],
+	minirewards: [
+					'IMG/minirewardslogo.jpeg'
+	],
+	trackr: [
+					'./IMG/trackr1.png',
+					'./IMG/trackr2.png',
+					'./IMG/trackr3.png',
+					'./IMG/trackr4.png',
+					'./IMG/trackr5.png',
+					'./IMG/trackr6.png',
+					'./IMG/trackr7.png'
+	]
 }
 
 var id = null;
@@ -13,8 +29,10 @@ window.onload = function() {
 	switch(window.location.pathname.split("/").pop()) {
 		case 'minirewards.html':
 			id = 'minirewards'
+			break;
 		case 'cemexventures.html':
 	    id = 'cemexventures'
+			break;
 		case 'trackr.html':
 			id = 'trackr'
 	    break;
