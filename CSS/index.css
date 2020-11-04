@@ -1,5 +1,5 @@
 /* FONTS */
-/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+/* Computers & tablets */
 @media screen and (min-width: 500px) {
   .is-main-title{
     font-size: 45px;
@@ -31,9 +31,34 @@
   .section-header{
     font-size: 50px;
   }
+
+  .is-project-title{
+    border-bottom: 3px solid white;
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+  .is-project-body{
+    font-size: 20px;
+  }
+
+  .is-education-title{
+    /* border-bottom: 3px solid white; */
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+  .is-education-body{
+    font-size: 20px;
+  }
+
+  .is-certify-title{
+    font-weight: bold;
+    font-size: 30px;
+  }
 }
 
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+/* Smartphones */
 @media screen and (max-width: 499px) {
   .is-main-title{
     font-size: 30px;
@@ -53,87 +78,45 @@
   }
 
   .is-menu-title{
-    font-size: 13px;
+    font-size: 18px;
     line-height: 28px;
   }
 
   .section-header{
     font-size: 30px;
   }
+
+  .is-project-title{
+    border-bottom: 3px solid white;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .is-project-body{
+    font-size: 15px;
+  }
+
+  .is-education-title{
+    /* border-bottom: 3px solid white; */
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  .is-education-body{
+    font-size: 15px;
+  }
+
+  .is-certify-title{
+    font-weight: bold;
+    font-size: 20px;
+  }
 }
 
 /* DIVS */
 
 .is-cover-pic{
-  background-image: url("../IMG/tony_wallpaper.jpg")
+  background-image: url("../IMG/tony_wallpaper.jpg");
 }
-
-/*
-.is-divided-div{
-  display: flex;
-  flex-direction: column;
-  height: 100%
-}
-
-.is-divided-div div{
-  flex: 1;
-}
-
-.is-card-left{
-  align-items: center;
-  float: right;
-  transform-origin center center 0px;
-  transition: transform .2s; /* Animation *
-  transform: perspective(1000px)
-}
-
-.is-card-left:hover{
-  transform: perspective(1000px) rotateY(10deg);
-}
-
-.is-card-right{
-  align-items: center;
-  float: left;
-  transform-origin center center 0px;
-  transition: transform .2s; /* Animation *
-  transform: perspective(1000px)
-}
-
-.is-card-right:hover{
-  transform: perspective(1000px) rotateY(-10deg);
-}
-
-.is-card{
-  border-radius: 2px;
-  background-color: hsl(0, 0%, 14%);
-  height: auto;
-}
-
-.is-picture{
-  display:block;
-  margin:auto;
-}
-
-.card-info{
-  border-left: 2px solid white;
-  color: white;
-  margin: 20px 5px 20px 5px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.card-title{
-  font-weight: bold;
-}
-
-#minirewards{
-  background-color: #5F0708;
-}
-
-#cemex{
-  background: #1B3F4B;
-}
-*/
 
 .is-right-side{
   text-align: right;
@@ -159,31 +142,6 @@
 
 .is-column-right:hover{
   transform: scale(1.04);
-}
-
-.is-project-title{
-  border-bottom: 3px solid white;
-  font-weight: bold;
-  font-size: 40px;
-}
-
-.is-project-body{
-  font-size: 20px;
-}
-
-.is-education-title{
-  /* border-bottom: 3px solid white; */
-  font-weight: bold;
-  font-size: 40px;
-}
-
-.is-education-body{
-  font-size: 20px;
-}
-
-.is-certify-title{
-  font-weight: bold;
-  font-size: 30px;
 }
 
 .is-certified-by{

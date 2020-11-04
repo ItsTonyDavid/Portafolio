@@ -4,29 +4,79 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
     <link rel="stylesheet" href="./CSS/global.css">
+    <link rel="stylesheet" href="./CSS/project.css">
     <title>Antonio Alcántara⚡</title>
   </head>
   <body>
     <section class="hero is-very-dark is-fullheight">
       <div class="hero-body">
-        <div class="container">
-          <div class="columns">
-            <div class="column">
-
+        <div class="tile is-ancestor">
+          <div class="tile is-vertical">
+            <div class="tile">
+              <div class="tile is-parent is-vertical">
+                <article class="tile is-child notification ">
+                  <p class="title">FabLat Kids</p>
+                </article>
+                <article class="tile is-child notification ">
+                  <p class="subtitle">facebook.com/fablatkids</p>
+                  <p class="subtitle">instagram.com/fablat_kids</p>
+                </article>
+              </div>
+              <div class="tile is-parent">
+                <article class="tile is-child notification">
+                  <div class="" onclick="openModal('img1')">
+                    <figure class="image is-4by3">
+                      <img src="./IMG/fablat1.jpg">
+                    </figure>
+                  </div>
+                </article>
+              </div>
+              <div class="tile is-parent">
+                <article class="tile is-child notification is-pic">
+                  <div class="" onclick="openModal('img2')">
+                    <figure class="image">
+                      <img src="./IMG/fablat2.jpg">
+                    </figure>
+                  </div>
+                </article>
+              </div>
             </div>
-            <div class="column">
-              <div class="title">
-                <h1>FabLat Kids.</h1>
-              </div>
-              <div class="">
-                <h2>
-                  
-                </h2>
-              </div>
+            <div class="tile is-parent">
+              <article class="tile is-child notification">
+                <p class="subtitle">
+                  I helped to craft a sort of robot that we called "Dibujabot"
+                  to teach kids the fundamentals of manufacturing, and electronics.
+                  The robot shaked with a motor, and made a drawing in a paper on the floor.
+                </p>
+                <div class="content">
+                  <!-- Content -->
+                </div>
+              </article>
             </div>
           </div>
         </div>
       </div>
     </section>
+
+    <div id="img1" class="modal">
+      <div class="modal-background"></div>
+      <div class="modal-content">
+        <p class="image is-4by3">
+          <img src="./IMG/fablat1.jpg" alt="">
+        </p>
+      </div>
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+    <div id="img2" class="modal">
+      <div class="modal-background"></div>
+      <div class="modal-content">
+        <p class="image is-4by3">
+          <img src="./IMG/fablat2.jpg" alt="">
+        </p>
+      </div>
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+    <script src="./JS/projects.js"></script>
   </body>
 </html>
