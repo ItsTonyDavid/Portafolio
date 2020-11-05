@@ -1,5 +1,6 @@
 .is-back{
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   margin-left: 10px;
   border: 0px;
   background-color: black;
@@ -45,24 +46,8 @@
 }
 
 /* Computers & tablets */
-@media screen and (min-width: 500px) {
-  .is-image{
-    max-height: 400px;
-    max-width: 600px;
-    text-align: center;
-  }
-}
-
-/* Smartphones */
-@media screen and (max-width: 499px) {
-  .is-image{
-    max-height: 240px;
-    max-height: 300px;
-    text-align: center;
-  }
-}
-
-.modal-image{
-  max-width:100%;
-  max-height:100%;
+.is-image{
+  max-height: 400px;
+  max-width: 600px;
+  text-align: center;
 }
