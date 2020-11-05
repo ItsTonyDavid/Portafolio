@@ -115,6 +115,23 @@
 }
 
 /* DIVS */
+.social-media{
+  float: right;
+  margin-top: 5px;
+}
+
+i{
+  /* color: white; */
+  margin-left: 5px;
+}
+i:hover{
+  color: white;
+}
+
+a.is-white{
+  color: inherit;
+  z-index: 10;
+}
 
 .is-cover-pic{
   background-image: url("../IMG/tony_wallpaper.jpg");
@@ -152,6 +169,6 @@
   text-decoration-color: white;
 }
 
-.is-certified-by a{
+a.is-certified-by{
   color: white;
 }

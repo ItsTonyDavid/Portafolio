@@ -46,8 +46,8 @@ window.onload = function() {
 
 var url = 0;
 setInterval(function () {
-	$("#img").animate({opacity: '1'},1250);
-	$("#img").delay(3000).animate({opacity: '0'},1000,function(){
+	$("#img").animate({opacity: '1'},750);
+	$("#img").delay(4000).animate({opacity: '0'},750,function(){
 		url += 1;
 		if (url >= imagesDict[id].length) {
 			url = 0;
