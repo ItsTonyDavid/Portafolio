@@ -52,7 +52,7 @@
   text-align: center;
 }
 
-@media screen and (max-width: 499px) {
+@media screen and (max-width: 770px) {
   .is-image{
     max-height: 175px;
     max-width: auto;
