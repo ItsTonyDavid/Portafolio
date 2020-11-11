@@ -52,6 +52,17 @@
   text-align: center;
 }
 
-.subtitle-project{
-  font-size:
+@media screen and (max-width: 499px) {
+  .is-image{
+    max-height: 175px;
+    max-width: 325px;
+    text-align: center;
+    min-height: 175px;
+    min-width: 325px;
+  }
+
+  #img{
+    max-height: inherit;
+    max-width: auto;
+  }
 }
