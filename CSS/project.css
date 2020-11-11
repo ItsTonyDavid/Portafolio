@@ -55,10 +55,10 @@
 @media screen and (max-width: 499px) {
   .is-image{
     max-height: 175px;
-    max-width: 325px;
+    max-width: auto;
     text-align: center;
     min-height: 175px;
-    min-width: 325px;
+    min-width: auto;
   }
 
   #img{

@@ -57,6 +57,11 @@
     font-weight: bold;
     font-size: 30px;
   }
+
+  /* .media_icon{
+    max-height: 3em;
+  } */
+
 }
 
 /* Smartphones */
@@ -112,6 +117,11 @@
     font-weight: bold;
     font-size: 20px;
   }
+
+  .media_icon{
+    font-size: 2em;
+  }
+
 }
 
 /* DIVS */
@@ -120,6 +130,8 @@
   margin-right: 20px;
   margin-top: 5px;
 }
+
+
 
 i{
   /* color: white; */
@@ -172,4 +184,8 @@ a.is-white{
 
 a.is-certified-by{
   color: white;
+}
+
+.is-center-img{
+  text-align: center;
 }
