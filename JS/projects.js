@@ -1,7 +1,7 @@
 var imagesDict={
 	fablat:[
-					'IMG/fablat1.jpg',
-					'IMG/fablat2.jpg'
+					'./IMG/fablat1.jpg',
+					'./IMG/fablat2.jpg'
 				],
 	cemexventures:[
 					'./IMG/cemexventures1.png',
@@ -11,7 +11,8 @@ var imagesDict={
 					'./IMG/cemexventures5.png'
 	],
 	minirewards: [
-					'IMG/minirewardslogo.jpeg'
+					'./IMG/minirewardslogo.jpeg',
+					'./IMG/minirewards1.jpeg'
 	],
 	trackr: [
 					'./IMG/trackr1.png',

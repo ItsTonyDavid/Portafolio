@@ -46,12 +46,19 @@
 }
 
 /* Computers & tablets */
-.is-image{
-  max-height: 400px;
-  max-width: 600px;
-  text-align: center;
+@media screen and (min-width:769px) {
+  .is-image{
+    max-height: 550px;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  #img{
+    max-height: inherit;
+  }
 }
 
+/* Phones */
 @media screen and (max-width:768px) {
   .is-image{
     max-width: 100%;

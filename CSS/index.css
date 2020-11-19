@@ -189,3 +189,7 @@ a.is-certified-by{
 .is-center-img{
   text-align: center;
 }
+
+.fa-medium{
+  border-radius: 100px;
+}
