@@ -12,7 +12,9 @@ var imagesDict={
 	],
 	minirewards: [
 					'./IMG/minirewardslogo.jpeg',
-					'./IMG/minirewards1.jpeg'
+					'./IMG/minirewards1.jpeg',
+					'./IMG/minirewards2.jpeg',
+					'./IMG/minirewards3.png'
 	],
 	trackr: [
 					'./IMG/trackr1.png',
